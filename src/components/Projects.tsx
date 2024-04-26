@@ -21,13 +21,13 @@ const Projects = () => {
                     <ProjectsCard
                         title="Portfolio"
                         desc="Personal portfolio website built using Vite and Tailwind CSS."
-                        link="https://github.com"/>
+                        link="https://github.com/Alphaknite/new-portfolio"/>
                 </div>
                 <div className="border-b-2 border-gray-700 w-2/3 mt-10"></div>
 
             </div>
         </>
-    )
+    );
 }
 
 export default Projects;

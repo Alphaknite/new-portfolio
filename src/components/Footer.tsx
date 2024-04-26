@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -20,10 +20,17 @@ const Footer = () => {
                         className="text-gray-500 hover:text-gray-700 transition-colors duration-300">
                         <FaLinkedin className="w-10 h-10" />
                     </a>
+                    <a
+                        href="https://twitter.com/rudra5oct"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-500 hover:text-gray-700 transition-colors duration-300">
+                        <FaTwitter className="w-10 h-10" />
+                    </a>
                 </div>
             </div>
         </>
-    )
+    );
 }
 
 export default Footer;

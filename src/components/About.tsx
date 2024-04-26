@@ -27,7 +27,7 @@ const About = () => {
                 <div className="border-b-2 border-gray-700 w-2/3 mt-10"></div>
             </div>
         </>
-    )
+    );
 }
 
 export default About;

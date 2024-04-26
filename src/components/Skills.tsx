@@ -2,8 +2,6 @@ import { FaHtml5, FaCss3Alt, FaReact, FaJava } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiTypescript } from "react-icons/si";
 
-
-
 const Skills = () => {
     return (
         <>
@@ -38,7 +36,7 @@ const Skills = () => {
                     <div className="border-b-2 border-gray-700 w-2/3 mt-10"></div>
                 </div>
         </>
-    )
+    );
 }
 
 export default Skills;
