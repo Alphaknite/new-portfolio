@@ -1,6 +1,6 @@
 import { FaHtml5, FaCss3Alt, FaReact, FaJava } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
+import { BiLogoTypescript } from "react-icons/bi";
 
 const Skills = () => {
     return (
@@ -21,7 +21,7 @@ const Skills = () => {
                             <p className="text-lg mt-2">JavaScript</p>
                         </div>
                         <div className="flex flex-col items-center">
-                            <SiTypescript className="w-24 h-24 text-blue-600" />
+                            <BiLogoTypescript className="w-24 h-24 text-blue-600" />
                             <p className="text-lg mt-2">TypeScript</p>
                         </div> 
                         <div className="flex flex-col items-center">

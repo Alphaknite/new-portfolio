@@ -5,18 +5,17 @@ import Main from "./components/Main.tsx"
 import Projects from "./components/Projects.tsx"
 import Skills from "./components/Skills.tsx"
 
-
 function App() {
 
   return (
     <>
       <div className="flex flex-col justify-center items-center text-white">
-          <Main />
-          <About />
-          <Projects />
-          <Skills />
-          <Github />
-          <Footer />
+        <Main />
+        <About />
+        <Projects />
+        <Skills />
+        <Github />
+        <Footer />
       </div>
     </>
   )
